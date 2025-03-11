@@ -1,13 +1,10 @@
 import React from "react";
-import Result from "./components/Result";
-import Info from "./components/Info";
+import Results from "./components";
 
 function App() {
   return (
-    <div className="results">
-      <h1>Your Result</h1>
-      <Result />
-      <Info />
+    <div className="conatiner">
+      <Results />
     </div>
   )
 }
